@@ -1,3 +1,16 @@
+      body {
+        background: linear-gradient(185deg rgb(165, 18, 18) 100%);
+        font-family: "Schriftartname", sans-serif;
+        height: 100vh;
+        margin: 0;
+        padding:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      
       .button {
         --c: #316b23; /* the color */
         box-shadow: 0 0 0 .1em inset var(--c);
